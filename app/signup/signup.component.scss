@@ -1,0 +1,36 @@
+section{
+    width: 100.9%;
+    height: 100vh;
+    color: #fff;
+    background-image: url("/assets/images/slika1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: -10px;
+   
+}
+
+mat-form-field {
+    width: 300px;
+}
+
+mat-toolbar {
+    margin-bottom: 50px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+    width: 300px;
+}
+
+.login-span {
+    margin-right: 20px;
+}
+
+.register-span {
+    margin-right: 30px;
+}
+
+.welcome-span {
+    margin-right: 50px;
+}
+

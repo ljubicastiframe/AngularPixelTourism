@@ -1,0 +1,21 @@
+<p>
+    <mat-toolbar>
+        <span style="font-family: 'Silkscreen', cursive; margin-left: 10px; font-size: xx-large;">Turizam Aplikacija</span>
+        <span class="example-spacer"></span>
+        <div fxFlex fxLayoutAlign="end" fxLayoutGap="40px" fxHide.xs>
+            <span style="font-family: 'Silkscreen', cursive;" routerLink="/welcome">Welcome</span>
+            <span style="font-family: 'Silkscreen', cursive;" routerLink="/register">Signup</span>
+            <span style="font-family: 'Silkscreen', cursive;" routerLink="/login">Login</span>
+            <span style="font-family: 'Silkscreen', cursive;" routerLink="/lista-putovanja">Destinations</span>
+            <span style="font-family: 'Silkscreen', cursive;" class="profil" (click)="openProfile(this.userService.currentUser.id)">
+                {{ this.userService.currentUser.email }}
+            </span>
+            <div >
+                <span style="padding: 10px; font-family: 'Silkscreen', cursive;" class="button fancy-button" routerLink="/korpa">
+                    Checkout({{itemCount()}})
+                </span>
+            </div>
+        </div>
+        
+    </mat-toolbar>
+</p>

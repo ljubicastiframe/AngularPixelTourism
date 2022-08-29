@@ -1,0 +1,25 @@
+<div class="container">
+<h2 class="naslov" style="font-family: 'Silkscreen', cursive;">Detalji Putovanja</h2>
+
+<div class="details" *ngIf="putovanje">
+    <div class="info">
+        <div class="tekst-info">
+            <h2 class="ime-destinacije"  style="font-family: 'Silkscreen', cursive;">{{ putovanje.name }}</h2>
+            <p style="font-family: 'Silkscreen', cursive;" class="opis">{{ putovanje.description }}</p>
+            <p style="font-family: 'Silkscreen', cursive;">{{ putovanje.price | currency }}</p>
+            <p style="font-family: 'Silkscreen', cursive;">{{ putovanje.prevoz }}</p>
+            <p style="font-family: 'Silkscreen', cursive;">{{ putovanje.vreme_putovanja }}</p>
+
+        </div>
+    </div>
+    <div class="dugmici">
+        <button style="font-family: 'Silkscreen', cursive;" type="button" class="dugmeAdd" (click)="addToCart(putovanje)">
+            Rezervisi
+        </button>
+        <button style="font-family: 'Silkscreen', cursive;" type="button" class="dugmeNazad" [routerLink]="'/lista-putovanja'">
+            Nazad na listu
+        </button>          
+    </div>
+</div> 
+
+</div>

@@ -1,0 +1,40 @@
+mat-form-field {
+    width: 300px;
+}
+mat-toolbar{
+    background-color:cyan;
+    margin: -8px;
+}
+
+a{
+    color: black;
+    margin-right: 20px;
+    font-size: large;
+}
+.profil {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+mat-toolbar {
+    height: 70px;
+    align-items: center;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+    width: 300px;
+}
+
+
+.login-span {
+    margin-right: 30px;
+}
+
+.register-span {
+    margin-right: 3000px;
+}
+
+.welcome-span {
+    margin-right: 1000px;
+}

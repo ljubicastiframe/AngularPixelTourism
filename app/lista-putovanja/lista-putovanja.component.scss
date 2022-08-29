@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.container{
+    width: 100.9%;
+    height: 100vh;
+    color: #fff;
+    background-image: url("/assets/images/slika2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: -10px;
+   
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.example-card {
+    margin-bottom: 8px;
+    background-color:gold;
+    height: 200px;
+    width: 300px;
+}
+
+.search{
+    width: 300px;
+    color: black;
+}
+
+.container-lista-putovanja {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: left;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    position: relative;
+    padding:30px;
+    background-color: var(--white);
+    height: 100px;
+}
+
+.udaljenost{
+    font-size: large;
+}
+
+.cena{
+    font-size: xx-large;
+}
+
+
+
+
+
+  

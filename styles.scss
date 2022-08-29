@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+mat-form-field {
+    width: 300px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+    width: 300px;
+}
+
+.cart {
+    width: 150px;
+}
+
+.linkZaLogin{
+    color: gray;
+}
+
+body{
+    font-family: 'Silkscreen', cursive;
+}

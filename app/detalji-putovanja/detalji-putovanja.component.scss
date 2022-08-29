@@ -1,0 +1,77 @@
+.container{
+    width: 100.9%;
+    height: 100vh;
+    color: #fff;
+    background-image: url("/assets/images/slika3.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: -10px;
+   
+}
+
+.details{
+	max-width: 1000px;
+	margin-left: 100px;
+}
+
+.naslov{
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.ime-destinacije{
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.info{
+	flex-direction: column;
+	position: relative;
+	border-bottom: 1px solid white;
+    padding-bottom: 48px;
+	border-top: 1px solid white;
+    padding-top: 48px;
+}
+
+.tekst-info{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2;
+	margin-right: 20px;
+    padding: 30px 40px;
+    max-width: 1000px;
+	background-color:goldenrod;  
+}
+
+.dugmici{
+	text-align: center;
+}
+
+.dugmeAdd{
+	font-size: 1.3rem;
+    padding: 13px 23px;
+    border-radius: 0;
+	background-color: yellowgreen;
+    border-radius: 30px;
+    color: black;
+	margin-top: 25px;
+    margin-right: 20px;
+}
+
+.dugmeNazad{
+	font-size: 1.3rem;
+    padding: 13px 23px;
+    border-radius: 0;
+	background-color: yellowgreen;
+    border-radius: 30px;
+    color: black;
+	margin-top: 25px;
+}
+
+.slika{
+    max-width: 200px;
+    max-height: 150px;
+    background-color: black;
+}

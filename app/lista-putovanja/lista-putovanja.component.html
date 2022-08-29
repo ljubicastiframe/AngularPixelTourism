@@ -1,0 +1,32 @@
+<div class="container">
+  <h2 style="font-family: 'Silkscreen', cursive; font-size: x-large; margin-left: 20px;">Putovanja</h2>
+
+  <div   class="form-group">
+    <input style="width: 300px; height: 30px; font-family: 'Silkscreen', cursive; margin-left: 20px;" type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search destinations">
+  </div>
+
+  <div class="container-lista-putovanja">
+    <div *ngFor="let putovanje of putovanja | filter:searchKey: 'name'">
+      <mat-card class="example-card" style="font-family: 'Silkscreen', cursive;">
+      <mat-card-header>
+        <mat-card-title><a [routerLink]="['/putovanja', putovanje.id]">{{ putovanje.name }}</a></mat-card-title>
+        <mat-card-subtitle >{{ putovanje.lokacija }}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="udaljenost">{{ putovanje.udaljenost }}</p>
+        <p class="cena">{{ putovanje.price | currency }}</p>
+        <p>{{ putovanje.prevoz }}</p>
+        <p>{{ putovanje.vreme_putovanja }}</p>
+      </mat-card-content>
+    </mat-card>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
